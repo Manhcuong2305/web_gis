@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+.layer-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #040a5c;
+    margin-bottom: 3px;
+}
+
+.layer-card{
+    background-color: #fafafa;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.left-sidebar{
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    box-shadow: 5px 0px 5px 0px rgba(69, 67, 069, 0.63);
+}
+
+.legend {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    background-color: #fafafa;
+    padding: 1em;
+    transition: margin-right 0.55ms;
+    max-width: 600px;
+    
+    height: fit-content;
+
+}
